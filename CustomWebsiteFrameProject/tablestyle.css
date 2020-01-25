@@ -1,0 +1,41 @@
+/* Table Method */
+
+#table .parent {
+    display: table;
+    height: 20em;
+    width: 100%;
+    text-align: center;
+    background: darkgray;
+}
+
+#table .child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.space {
+    background: #fff;
+    padding: 10em 0em;
+
+}
+
+/* Position Method */
+
+#position .parent {
+    display: relative;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background: lightgray;
+}
+
+#position .child {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+}

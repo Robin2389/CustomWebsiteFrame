@@ -1,0 +1,49 @@
+/* Customer Banner */
+
+body {
+    margin: 0;
+}
+
+#customer-banner {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkslategray;
+}
+
+#customer-banner .outerbox {
+    height: 10em;
+    width: 100%;
+    background: lightgray;
+    display: table;
+}
+
+#customer-banner .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#customer-banner ul.companies {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#customer-banner .companies li {
+    background: whitesmoke;
+    padding: 1em 1em;
+    border-radius: 25px;
+}
+
+#customer-banner .banner-active {
+    transform: translateX(10%);
+}
+
+@keyframes bannerFade {
+    from{
+        transform: translateX(50px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+
+}
